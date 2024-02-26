@@ -1,0 +1,125 @@
+#bg{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(240,242,245);
+}
+#box{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    justify-content: space-between;
+    gap: 40px;
+}
+#left{
+    flex: 1;
+}
+#image{
+    
+    align-content: center;
+    margin-left: -40px;
+    height: 110px;
+    width: 80%;
+    text-shadow: 0.1px 0.1px 25px #000;
+}
+h2{
+    margin-top: -11px;
+    font-size: 24px;
+    font-weight: lighter;
+    text-shadow: 0.1px 0.1px 110px #000;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+#right{
+    border: white solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: -40px;
+    height: 360px;
+    margin-right: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    flex: 1;
+}
+#i1{
+    font-size: 17px; 
+    padding-left: 10px;
+    width: 364px;
+    margin: 10px 25px 25px 25px;
+    height: 50px;
+    border: rgb(205, 199, 199) solid  0.1px ;
+    border-radius: 6px;
+}
+#form{
+    background-color: white;
+    padding: 10px;
+}
+#i2{
+    font-size: 17px;
+    padding-left: 10px;
+    width: 364px;
+    margin-top: -10px;
+    margin-left: 25px;
+    height: 50px;
+    border: rgb(201, 199, 199) solid 0.1px;
+    border-radius: 6px;
+}
+#b1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(24,119,242);
+    padding-left: 10px;
+    width: 380px;
+    margin: 23px;
+    margin-bottom: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+a{
+    margin-left: 35%;
+    color: rgb(24,119,242);
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+#border{
+    margin-top: 20px;
+    border-bottom: 00.1px rgb(201, 199, 199) solid;
+    margin-bottom: 0%;
+}
+#b2{
+    background-color: rgb(66,183,42);
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 28%;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif, Arial, sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: 50px;
+    align-content: center;
+    font-size: 14px;
+    display: flex;
+}
+p{
+    margin-top: -33px;
+    margin-left: 31.4%;
+    font-family:sans-serif;
+    font-size: 15px;
+}
